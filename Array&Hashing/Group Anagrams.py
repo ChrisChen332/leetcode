@@ -1,7 +1,7 @@
 from collections import defaultdict
 from typing import List
 
-
+# Check the duplicate with hashtable with time O(m*n) and space O(m)
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[list[str]]:
         hashT = defaultdict(list)
