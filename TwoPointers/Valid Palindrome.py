@@ -15,6 +15,4 @@ class Solution:
                 continue
             else:
                 return False
-            i += 1
-            j -= 1
         return True
